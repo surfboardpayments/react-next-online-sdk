@@ -78,7 +78,7 @@ const PaymentForm = () => {
         });
 
         window.SurfboardOnlineSDK.initialiseOnlineSDK({
-            publicKey: process.env.NEXT_PUBLIC_SURFBOARD_PUBLIC_KEY, 
+            publicKey: process.env.NEXT_PUBLIC_SURFBOARD_TERMINAL_PUBLIC_KEY, 
             orderId: orderId,
             nonce: nonce,
         }).then(() => {

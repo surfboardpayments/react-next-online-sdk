@@ -42,11 +42,11 @@ This project requires a public key and an SDK URL from Surfboard Payments. Creat
 
 ```
 NEXT_PUBLIC_SURFBOARD_SDK_URL=<YOUR_SDK_URL>
-NEXT_PUBLIC_SURFBOARD_PUBLIC_KEY=<YOUR_TERMINAL_PUBLIC_KEY>
+NEXT_PUBLIC_SURFBOARD_TERMINAL_PUBLIC_KEY=<YOUR_TERMINAL_PUBLIC_KEY>
 ```
 
 -   `NEXT_PUBLIC_SURFBOARD_SDK_URL`: The URL for the Surfboard Payments SDK.
--   `NEXT_PUBLIC_SURFBOARD_PUBLIC_KEY`: The terminal public key. This can be fetched from your terminal's information after registering a terminal.
+-   `NEXT_PUBLIC_SURFBOARD_TERMINAL_PUBLIC_KEY`: The terminal public key. This can be fetched from your terminal's information after registering a terminal.
 
 For more details, please visit the [Surfboard Payments Developer Portal](https://developers.surfboardpayments.com/).
 
